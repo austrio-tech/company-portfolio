@@ -1,10 +1,13 @@
 "use client";
 
 import React, { useState } from "react";
+
 import Link from "next/link";
-import Hamburger from "../../ui/CustomeHamburger";
-import { MOBILENAVBARLINKS, WEBNAVBARLINKS } from "../../../../db/index";
+
+import Hamburger from "./molecules/Hamburger";
 import { ImageComponent } from "../../ui";
+
+import { MOBILENAVBARLINKS, WEBNAVBARLINKS } from "../../../../db/index";
 
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -23,12 +26,12 @@ const Navbar: React.FC = () => {
         <div className="bg-primary backdrop-blur-sm shadow-lg">
             <div className="relative w-full h-[60px] md:h-20 flex justify-between items-center px-6 md:px-20">
                 {/* Logo */}
-                <div>
+                <Link href="/">
                     <h2 className="text-2xl font-medium py-3 text-white">
                         AUSTRIO-TECH
                     </h2>
                     {/* <ImageComponent alt="logo" src="/" priority /> */}
-                </div>
+                </Link>
 
                 {/* Web navbar */}
                 <div className="hidden md:flex items-center space-x-10">
