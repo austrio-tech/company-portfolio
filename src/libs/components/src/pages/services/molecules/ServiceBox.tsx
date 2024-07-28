@@ -15,7 +15,7 @@ const ServiceBox: React.FC<ServicesTypes> = ({ row }) => {
     const { icon, heading, description } = row;
 
     return (
-        <div className="group h-[300px] [perspective:1000px] cursor-pointer">
+        <div className="group h-[200px] sm:h-[300px] [perspective:1000px] cursor-pointer">
             <div className="relative h-full w-full shadow-xl rounded-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden]">
                 {/* // front side // */}
                 <div className="absolute inset-0 p-8 bg-opacity-10">
