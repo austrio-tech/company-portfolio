@@ -1,1 +1,2 @@
-export {default as Navbar} from './navbar'
+export { default as ImageComponent } from "./image/";
+export { default as Hamburger } from "./CustomeHamburger";

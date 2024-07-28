@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
-  return (
-    <div className='w-screen h-screen'>About</div>
-  )
-}
+    return <div className="w-full min-h-screen p-10 bg-green-600">About</div>;
+};
 
-export default About
+export default About;

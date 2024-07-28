@@ -1,1 +1,2 @@
-export {default as HomeLayout} from './defaultLayout'
+export { default as Navbar } from "./navbar";
+export { default as Footer } from "./footer";
