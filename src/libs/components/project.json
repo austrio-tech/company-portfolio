@@ -1,9 +1,8 @@
 {
-  "name": "next-components",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/next-components/src",
-  "projectType": "library",
-  "tags": [],
-  "// targets": "to see all targets run: nx show project next-components --web",
-  "targets": {}
+    "name": "next-components",
+    "sourceRoot": "libs/next-components/src",
+    "projectType": "library",
+    "tags": [],
+    "// targets": "to see all targets run: nx show project next-components --web",
+    "targets": {}
 }

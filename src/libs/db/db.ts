@@ -86,3 +86,48 @@ export const SERVICES = [
             "We have experience with a variety of frontend technologies. We can assist you through the whole process of creating and delivering fully scalable online and backend solutions.",
     },
 ];
+
+export const PROJECTS = [
+    {
+        images: [],
+        name: "Web Development",
+        link: "www.google.com",
+        detail: "We have experience with a variety of frontend technologies.",
+        color: "#F47920",
+    },
+    {
+        images: [],
+        name: "Web Development",
+        link: "www.google.com",
+        detail: "We have experience with a variety of frontend technologies.",
+        color: "#FF0000",
+    },
+    {
+        images: [],
+        name: "Web Development",
+        link: "www.google.com",
+        detail: "We have experience with a variety of frontend technologies.",
+        color: "#3DCD5C",
+    },
+    {
+        images: [],
+        name: "Web Development",
+        link: "www.google.com",
+        detail: "We have experience with a variety of frontend technologies.",
+        color: "#1F80F2",
+    },
+    {
+        images: [],
+        name: "Web Development",
+        link: "www.google.com",
+        detail: "We have experience with a variety of frontend technologies.",
+        color: "#0F4B8E",
+    },
+    {
+        images: [],
+        name: "Web Development",
+        link: "www.google.com",
+        detail: "We have experience with a variety of frontend technologies.",
+        color: "#f6cd5c",
+    },
+];
