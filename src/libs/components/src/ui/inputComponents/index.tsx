@@ -12,7 +12,7 @@ interface InputTypes {
     className?: string;
     required?: boolean;
     placeholder?: string;
-    value?: string | number | undefined | null;
+    value?: string | number | undefined | readonly string[];
 }
 
 const InputComponent: React.FC<InputTypes> = ({
