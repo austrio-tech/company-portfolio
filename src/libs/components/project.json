@@ -1,0 +1,8 @@
+{
+    "name": "next-components",
+    "sourceRoot": "libs/next-components/src",
+    "projectType": "library",
+    "tags": [],
+    "// targets": "to see all targets run: nx show project next-components --web",
+    "targets": {}
+}
